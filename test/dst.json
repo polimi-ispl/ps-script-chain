@@ -1,0 +1,22 @@
+[
+    {
+        "blur": {}
+    }, 
+    {
+        "rotate": {
+            "angle": "80"
+        }
+    }, 
+    {
+        "scale": {
+            "new_w": "300", 
+            "new_h": "350", 
+            "interpolation": "bilinear"
+        }
+    }, 
+    {
+        "OutputPng": {
+            "Image Rotated": "yes"
+        }
+    }
+]

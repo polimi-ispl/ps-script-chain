@@ -1,0 +1,580 @@
+{
+  "directed": true, 
+  "graph": {
+    "username": "nbonettini", 
+    "igversion": "04.0810.cd74ff8bc8", 
+    "updatetime": "2017-11-28 15:56:12", 
+    "validationdate": "", 
+    "projecttype": "image", 
+    "name": "img_original", 
+    "validationtime": "", 
+    "creator": "nbonettini", 
+    "manipulationcategory": "", 
+    "edgeFilePaths": {
+      "maskname": "", 
+      "videomasks.videosegment": "", 
+      "arguments.XMP File Name": "", 
+      "arguments.convolutionkernel": "", 
+      "selectmasks.mask": "", 
+      "arguments.pastemask": "", 
+      "arguments.qtfile": "", 
+      "inputmaskname": "inputmaskownership", 
+      "arguments.PNG File Name": ""
+    }, 
+    "provenance": "no", 
+    "typespref": [
+      [
+        "jpeg files", 
+        "*.jpg"
+      ], 
+      [
+        "png files", 
+        "*.png"
+      ], 
+      [
+        "tiff files", 
+        "*.tiff"
+      ], 
+      [
+        "tiff files", 
+        "*.tif"
+      ], 
+      [
+        "Raw NEF", 
+        "*.nef"
+      ], 
+      [
+        "bmp files", 
+        "*.bmp"
+      ], 
+      [
+        "pdf files", 
+        "*.pdf"
+      ], 
+      [
+        "cr2", 
+        "*.cr2"
+      ], 
+      [
+        "raf", 
+        "*.raf"
+      ], 
+      [
+        "mpeg files", 
+        "*.mp4"
+      ], 
+      [
+        "mov files", 
+        "*.mov"
+      ], 
+      [
+        "wmv", 
+        "*.wmv"
+      ], 
+      [
+        "m4p", 
+        "*.m4p"
+      ], 
+      [
+        "m4v", 
+        "*.m4v"
+      ], 
+      [
+        "f4v", 
+        "*.flv"
+      ], 
+      [
+        "avi files", 
+        "*.avi"
+      ], 
+      [
+        "asf", 
+        "*.asf"
+      ], 
+      [
+        "mts", 
+        "*.mts"
+      ], 
+      [
+        "mpeg audio files", 
+        "*.m4a"
+      ], 
+      [
+        "mpeg audio files", 
+        "*.m4p"
+      ], 
+      [
+        "mpeg audio files", 
+        "*.mp3"
+      ], 
+      [
+        "raw audio files", 
+        "*.raw"
+      ], 
+      [
+        "Audio Interchange File", 
+        "*.aif"
+      ], 
+      [
+        "Audio Interchange File", 
+        "*.aiff"
+      ], 
+      [
+        "Standard PC audio files", 
+        "*.wav"
+      ], 
+      [
+        "Windows Media  audio files", 
+        "*.wma"
+      ]
+    ], 
+    "validatedby": "", 
+    "nodeFilePaths": {
+      "proxyfile": "", 
+      "compositemaskname": "", 
+      "donors.*": ""
+    }, 
+    "jt_upgrades": [
+      "0.3.1115", 
+      "0.3.1213", 
+      "0.4.0101", 
+      "0.4.0101.8593b8f323", 
+      "0.4.0308.f7d9a62a7e", 
+      "0.4.0308.dd9555e4ba", 
+      "0.4.0308.90e0ce497f", 
+      "0.4.0308.adee798679", 
+      "0.4.0308.db2133eadc", 
+      "0.4.0425.d3bc2f59e1", 
+      "0.4.0101.b4561b475b", 
+      "04.0621.3a5c9635ef", 
+      "04.0720.415b6a5cc4", 
+      "04.0720.b0ec584b4e", 
+      "04.0810.546e996a36", 
+      "04.0810.9381e76724", 
+      "04.0820.cd74ff8bc8", 
+      "04.0810.cd74ff8bc8"
+    ], 
+    "idcount": 5, 
+    "groups": {}, 
+    "organization": "polimi", 
+    "validation": "no", 
+    "autopastecloneinputmask": "no"
+  }, 
+  "nodes": [
+    {
+      "username": "nbonettini", 
+      "xpos": 100, 
+      "nodetype": "base", 
+      "ctime": "2017-10-19 12:31:06", 
+      "ypos": 30, 
+      "seriesname": "img_original", 
+      "ownership": "no", 
+      "file": "img_original.png", 
+      "id": "img_original"
+    }, 
+    {
+      "username": "nbonettini", 
+      "xpos": 440, 
+      "nodetype": "final", 
+      "ctime": "2017-11-28 16:56:11", 
+      "ypos": 398, 
+      "seriesname": "img_original", 
+      "ownership": "yes", 
+      "file": "img_original_05.png", 
+      "id": "img_original_05"
+    }, 
+    {
+      "username": "nbonettini", 
+      "xpos": 340, 
+      "nodetype": "interim", 
+      "ctime": "2017-11-28 16:55:45", 
+      "ypos": 298, 
+      "seriesname": "img_original", 
+      "ownership": "yes", 
+      "file": "img_original_04.png", 
+      "id": "img_original_04"
+    }, 
+    {
+      "username": "nbonettini", 
+      "xpos": 416, 
+      "nodetype": "interim", 
+      "ctime": "2017-11-28 16:54:50", 
+      "ypos": 190, 
+      "seriesname": "img_original", 
+      "ownership": "yes", 
+      "file": "img_original_03.png", 
+      "id": "img_original_03"
+    }, 
+    {
+      "username": "nbonettini", 
+      "xpos": 183, 
+      "nodetype": "interim", 
+      "ctime": "2017-10-19 12:59:32", 
+      "ypos": 145, 
+      "seriesname": "img_original", 
+      "ownership": "yes", 
+      "file": "img_original_02.png", 
+      "id": "img_original_02"
+    }
+  ], 
+  "links": [
+    {
+      "username": "nbonettini", 
+      "maskname": "63c198251a98275b7ab11118ad20f1f2_igoligol02__mask.png", 
+      "errors": [], 
+      "description": "Blur:Blur the image with a 3x3 gaussian kernel with sigma=0", 
+      "opsys": "Windows 7 6.1.7601", 
+      "editable": "yes", 
+      "softwareVersion": "2.4.13", 
+      "plugin_name": "Blur", 
+      "ctime": "2017-10-19 12:59:33", 
+      "softwareName": "OpenCV", 
+      "source": 0, 
+      "local psnr": 11.782475163399484, 
+      "psnr": 16.01219532213574, 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "arguments": {
+        "dummy_argument": "DO NOT SET ME!"
+      }, 
+      "exifdiff": {
+        "Instance ID": [
+          "delete", 
+          "xmp.iid:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+        ], 
+        "File Size": [
+          "change", 
+          "477 kB", 
+          "340 kB"
+        ], 
+        "Metadata Date": [
+          "delete", 
+          "2017:07:28 16:01:37+02:00"
+        ], 
+        "Exif Image Width": [
+          "delete", 
+          "512"
+        ], 
+        "Exif Image Height": [
+          "delete", 
+          "512"
+        ], 
+        "History Action": [
+          "delete", 
+          "created"
+        ], 
+        "File Creation Date/Time": [
+          "change", 
+          "2017:10:19 12:24:54+02:00", 
+          "2017:10:19 12:59:32+02:00"
+        ], 
+        "Red Y": [
+          "delete", 
+          "0.33001"
+        ], 
+        "Creator Tool": [
+          "delete", 
+          "Adobe Photoshop CC 2017 (Windows)"
+        ], 
+        "Green X": [
+          "delete", 
+          "0.3"
+        ], 
+        "Format": [
+          "delete", 
+          "image/png"
+        ], 
+        "File Modification Date/Time": [
+          "change", 
+          "2017:07:28 16:01:37+02:00", 
+          "2017:10:19 12:59:32+02:00"
+        ], 
+        "Pixels Per Unit Y": [
+          "delete", 
+          "2835"
+        ], 
+        "Pixels Per Unit X": [
+          "delete", 
+          "2835"
+        ], 
+        "Color Mode": [
+          "delete", 
+          "RGB"
+        ], 
+        "Pixel Units": [
+          "delete", 
+          "meters"
+        ], 
+        "History Software Agent": [
+          "delete", 
+          "Adobe Photoshop CC 2017 (Windows)"
+        ], 
+        "History Instance ID": [
+          "delete", 
+          "xmp.iid:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+        ], 
+        "Document ID": [
+          "delete", 
+          "xmp.did:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+        ], 
+        "Red X": [
+          "delete", 
+          "0.63999"
+        ], 
+        "Original Document ID": [
+          "delete", 
+          "xmp.did:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+        ], 
+        "Blue X": [
+          "delete", 
+          "0.15"
+        ], 
+        "Blue Y": [
+          "delete", 
+          "0.05999"
+        ], 
+        "Resolution Unit": [
+          "delete", 
+          "inches"
+        ], 
+        "Modify Date": [
+          "delete", 
+          "2017:07:28 16:01:37+02:00"
+        ], 
+        "X Resolution": [
+          "delete", 
+          "72"
+        ], 
+        "Orientation": [
+          "delete", 
+          "Horizontal (normal)"
+        ], 
+        "History When": [
+          "delete", 
+          "2017:07:28 15:18:08+02:00"
+        ], 
+        "File Name": [
+          "change", 
+          "img_original.png", 
+          "img_original_02.png"
+        ], 
+        "Green Y": [
+          "delete", 
+          "0.6"
+        ], 
+        "Color Space": [
+          "delete", 
+          "Uncalibrated"
+        ], 
+        "Y Resolution": [
+          "delete", 
+          "72"
+        ], 
+        "Create Date": [
+          "delete", 
+          "2017:07:28 15:18:08+02:00"
+        ], 
+        "White Point X": [
+          "delete", 
+          "0.31269"
+        ], 
+        "White Point Y": [
+          "delete", 
+          "0.32899"
+        ], 
+        "XMP Toolkit": [
+          "delete", 
+          "Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01"
+        ]
+      }, 
+      "target": 4, 
+      "op": "GIMPBlur", 
+      "shape change": "(0, 0)"
+    }, 
+    {
+      "username": "nbonettini", 
+      "maskname": "682fa577f7b0486d97bb22a3106fe41e_igol04igol05__mask.png", 
+      "psnr": 0.0, 
+      "description": "OutputPNG:Save an image as .PNG", 
+      "opsys": "Windows 7 6.1.7601", 
+      "editable": "yes", 
+      "local psnr": 0.0, 
+      "plugin_name": "OutputPNG", 
+      "exifdiff": {
+        "File Modification Date/Time": [
+          "change", 
+          "2017:11:28 16:55:45+01:00", 
+          "2017:11:28 16:56:11+01:00"
+        ], 
+        "File Name": [
+          "change", 
+          "img_original_04.png", 
+          "img_original_05.png"
+        ], 
+        "File Creation Date/Time": [
+          "change", 
+          "2017:11:28 16:55:45+01:00", 
+          "2017:11:28 16:56:11+01:00"
+        ], 
+        "File Access Date/Time": [
+          "change", 
+          "2017:11:28 16:54:50+01:00", 
+          "2017:11:28 16:55:45+01:00"
+        ]
+      }, 
+      "softwareName": "PIL", 
+      "source": 2, 
+      "softwareVersion": "3.4.2", 
+      "errors": [], 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "arguments": {
+        "Image Rotated": "yes"
+      }, 
+      "shape change": "(0, 0)", 
+      "op": "OutputPng", 
+      "target": 1, 
+      "ctime": "2017-11-28 16:56:12"
+    }, 
+    {
+      "username": "nbonettini", 
+      "maskname": "6b611412441a6e8429f8b67c2d9d99d9_igol03igol04__mask.png", 
+      "psnr": 5.082910718651705, 
+      "description": "Scale:Resize the image with interpolation", 
+      "location": "(7, 32)", 
+      "opsys": "Windows 7 6.1.7601", 
+      "editable": "yes", 
+      "softwareVersion": "2.4.13", 
+      "plugin_name": "Scale", 
+      "exifdiff": {
+        "Image Size": [
+          "change", 
+          "362x362", 
+          "300x350"
+        ], 
+        "Image Height": [
+          "change", 
+          "362", 
+          "350"
+        ], 
+        "Image Width": [
+          "change", 
+          "362", 
+          "300"
+        ], 
+        "File Name": [
+          "change", 
+          "img_original_03.png", 
+          "img_original_04.png"
+        ], 
+        "Megapixels": [
+          "change", 
+          "0.131", 
+          "0.105"
+        ], 
+        "File Size": [
+          "change", 
+          "180 kB", 
+          "147 kB"
+        ], 
+        "File Modification Date/Time": [
+          "change", 
+          "2017:11:28 16:54:50+01:00", 
+          "2017:11:28 16:55:45+01:00"
+        ], 
+        "File Access Date/Time": [
+          "change", 
+          "2017:11:28 16:54:25+01:00", 
+          "2017:11:28 16:54:50+01:00"
+        ], 
+        "File Creation Date/Time": [
+          "change", 
+          "2017:11:28 16:54:50+01:00", 
+          "2017:11:28 16:55:45+01:00"
+        ]
+      }, 
+      "softwareName": "OpenCV", 
+      "source": 3, 
+      "local psnr": -0.2896548578118034, 
+      "errors": [], 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "arguments": {
+        "new_w": "300", 
+        "new_h": "350", 
+        "interpolation": "bilinear"
+      }, 
+      "shape change": "(-12, -62)", 
+      "op": "Scale", 
+      "target": 2, 
+      "ctime": "2017-11-28 16:55:45"
+    }, 
+    {
+      "username": "nbonettini", 
+      "maskname": "18e07c8782572ceffcda285bb0f77de0_igol02igol03__mask.png", 
+      "psnr": 6.742868846088159, 
+      "description": "Rotate:Rotate and crop the image to avoid background filling", 
+      "location": "(3, 9)", 
+      "opsys": "Windows 7 6.1.7601", 
+      "editable": "yes", 
+      "softwareVersion": "2.4.13", 
+      "plugin_name": "Rotate", 
+      "exifdiff": {
+        "Image Size": [
+          "change", 
+          "512x512", 
+          "362x362"
+        ], 
+        "Image Height": [
+          "change", 
+          "512", 
+          "362"
+        ], 
+        "Image Width": [
+          "change", 
+          "512", 
+          "362"
+        ], 
+        "File Name": [
+          "change", 
+          "img_original_02.png", 
+          "img_original_03.png"
+        ], 
+        "Megapixels": [
+          "change", 
+          "0.262", 
+          "0.131"
+        ], 
+        "File Size": [
+          "change", 
+          "340 kB", 
+          "180 kB"
+        ], 
+        "File Modification Date/Time": [
+          "change", 
+          "2017:10:19 12:59:32+02:00", 
+          "2017:11:28 16:54:50+01:00"
+        ], 
+        "File Creation Date/Time": [
+          "change", 
+          "2017:10:19 12:59:32+02:00", 
+          "2017:11:28 16:54:50+01:00"
+        ]
+      }, 
+      "softwareName": "OpenCV", 
+      "source": 4, 
+      "local psnr": -4.403445438068909, 
+      "errors": [], 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "arguments": {
+        "angle": "80"
+      }, 
+      "shape change": "(-150, -150)", 
+      "op": "Rotate", 
+      "target": 3, 
+      "ctime": "2017-11-28 16:54:52"
+    }
+  ], 
+  "multigraph": false
+}
