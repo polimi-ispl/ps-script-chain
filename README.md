@@ -1,6 +1,6 @@
 # Photoshop Script Chain
 
-Photoshop scripting tool to chain transformations together. The tool is under development, so it works with a selected set of tranformations, e.g. _crop, rotation, flip, scale, copy paste from same image, blur, motion blur, unsharp_.
+Photoshop scripting tool to chain transformations together. The tool is under development, so it only works with a reduced set of tranformations, e.g. _crop, rotation, flip, scale, copy paste from same image, blur, motion blur, unsharp_.
 
 ### Requisites:
 * Python 2 or 3
@@ -10,6 +10,7 @@ Photoshop scripting tool to chain transformations together. The tool is under de
 ### Usage:
 We refer to the root directory of the repository as `$ROOT`. Folder 'test' contains some test files you can use for check the tool out. 
 In particular:
+
 - _$ROOT/test/journal_from_JT.json_ journal file generated with MediFor journaling tool
 - _$ROOT/test/img_src/*_ test images to process
 
@@ -26,6 +27,7 @@ output: json with ordered operations chain
 ##### 2. Image transformation
 **2.1** Open _photoshop_chain.jsx_ with Adobe Extendscript Toolkit and set `rootDir` to `$ROOT`
 **2.2** Execute _photoshop_chain.jsx_ (Photoshop should open up automatically)
+
 Output images are saved in `$ROOT`/test/img_dst
 
 ## Disclaimer notice 
