@@ -3,13 +3,12 @@
   "graph": {
     "username": "nbonettini", 
     "igversion": "04.0810.cd74ff8bc8", 
-    "updatetime": "2017-11-28 15:56:12", 
+    "updatetime": "2017-11-29 15:07:12", 
     "validationdate": "", 
     "projecttype": "image", 
     "name": "img_original", 
     "validationtime": "", 
     "creator": "nbonettini", 
-    "manipulationcategory": "", 
     "edgeFilePaths": {
       "maskname": "", 
       "videomasks.videosegment": "", 
@@ -129,6 +128,7 @@
       ]
     ], 
     "validatedby": "", 
+    "validation": "no", 
     "nodeFilePaths": {
       "proxyfile": "", 
       "compositemaskname": "", 
@@ -157,7 +157,7 @@
     "idcount": 5, 
     "groups": {}, 
     "organization": "polimi", 
-    "validation": "no", 
+    "manipulationcategory": "", 
     "autopastecloneinputmask": "no"
   }, 
   "nodes": [
@@ -174,21 +174,10 @@
     }, 
     {
       "username": "nbonettini", 
-      "xpos": 440, 
+      "xpos": 339, 
       "nodetype": "final", 
-      "ctime": "2017-11-28 16:56:11", 
-      "ypos": 398, 
-      "seriesname": "img_original", 
-      "ownership": "yes", 
-      "file": "img_original_05.png", 
-      "id": "img_original_05"
-    }, 
-    {
-      "username": "nbonettini", 
-      "xpos": 340, 
-      "nodetype": "interim", 
       "ctime": "2017-11-28 16:55:45", 
-      "ypos": 298, 
+      "ypos": 297, 
       "seriesname": "img_original", 
       "ownership": "yes", 
       "file": "img_original_04.png", 
@@ -221,26 +210,16 @@
     {
       "username": "nbonettini", 
       "maskname": "63c198251a98275b7ab11118ad20f1f2_igoligol02__mask.png", 
-      "errors": [], 
+      "psnr": 16.01219532213574, 
       "description": "Blur:Blur the image with a 3x3 gaussian kernel with sigma=0", 
       "opsys": "Windows 7 6.1.7601", 
       "editable": "yes", 
-      "softwareVersion": "2.4.13", 
-      "plugin_name": "Blur", 
-      "ctime": "2017-10-19 12:59:33", 
-      "softwareName": "OpenCV", 
-      "source": 0, 
       "local psnr": 11.782475163399484, 
-      "psnr": 16.01219532213574, 
-      "recordMaskInComposite": "no", 
-      "automated": "yes", 
-      "arguments": {
-        "dummy_argument": "DO NOT SET ME!"
-      }, 
+      "plugin_name": "Blur", 
       "exifdiff": {
-        "Instance ID": [
+        "Original Document ID": [
           "delete", 
-          "xmp.iid:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+          "xmp.did:c08a1a76-3699-0f45-a947-eaad1a1b997d"
         ], 
         "File Size": [
           "change", 
@@ -321,9 +300,9 @@
           "delete", 
           "0.63999"
         ], 
-        "Original Document ID": [
+        "Instance ID": [
           "delete", 
-          "xmp.did:c08a1a76-3699-0f45-a947-eaad1a1b997d"
+          "xmp.iid:c08a1a76-3699-0f45-a947-eaad1a1b997d"
         ], 
         "Blue X": [
           "delete", 
@@ -387,65 +366,38 @@
           "Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01"
         ]
       }, 
-      "target": 4, 
-      "op": "GIMPBlur", 
-      "shape change": "(0, 0)"
-    }, 
-    {
-      "username": "nbonettini", 
-      "maskname": "682fa577f7b0486d97bb22a3106fe41e_igol04igol05__mask.png", 
-      "psnr": 0.0, 
-      "description": "OutputPNG:Save an image as .PNG", 
-      "opsys": "Windows 7 6.1.7601", 
-      "editable": "yes", 
-      "local psnr": 0.0, 
-      "plugin_name": "OutputPNG", 
-      "exifdiff": {
-        "File Modification Date/Time": [
-          "change", 
-          "2017:11:28 16:55:45+01:00", 
-          "2017:11:28 16:56:11+01:00"
-        ], 
-        "File Name": [
-          "change", 
-          "img_original_04.png", 
-          "img_original_05.png"
-        ], 
-        "File Creation Date/Time": [
-          "change", 
-          "2017:11:28 16:55:45+01:00", 
-          "2017:11:28 16:56:11+01:00"
-        ], 
-        "File Access Date/Time": [
-          "change", 
-          "2017:11:28 16:54:50+01:00", 
-          "2017:11:28 16:55:45+01:00"
-        ]
-      }, 
-      "softwareName": "PIL", 
-      "source": 2, 
-      "softwareVersion": "3.4.2", 
+      "softwareName": "OpenCV", 
+      "source": 0, 
+      "softwareVersion": "2.4.13", 
       "errors": [], 
       "recordMaskInComposite": "no", 
       "automated": "yes", 
       "arguments": {
-        "Image Rotated": "yes"
+        "dummy_argument": "DO NOT SET ME!"
       }, 
       "shape change": "(0, 0)", 
-      "op": "OutputPng", 
-      "target": 1, 
-      "ctime": "2017-11-28 16:56:12"
+      "op": "GIMPBlur", 
+      "target": 3, 
+      "ctime": "2017-10-19 12:59:33"
     }, 
     {
       "username": "nbonettini", 
       "maskname": "6b611412441a6e8429f8b67c2d9d99d9_igol03igol04__mask.png", 
-      "psnr": 5.082910718651705, 
+      "errors": [], 
       "description": "Scale:Resize the image with interpolation", 
       "location": "(7, 32)", 
       "opsys": "Windows 7 6.1.7601", 
       "editable": "yes", 
-      "softwareVersion": "2.4.13", 
+      "local psnr": -0.2896548578118034, 
       "plugin_name": "Scale", 
+      "ctime": "2017-11-28 16:55:45", 
+      "softwareName": "OpenCV", 
+      "source": 2, 
+      "softwareVersion": "2.4.13", 
+      "psnr": 5.082910718651705, 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "shape change": "(-12, -62)", 
       "exifdiff": {
         "Image Size": [
           "change", 
@@ -493,32 +445,32 @@
           "2017:11:28 16:55:45+01:00"
         ]
       }, 
-      "softwareName": "OpenCV", 
-      "source": 3, 
-      "local psnr": -0.2896548578118034, 
-      "errors": [], 
-      "recordMaskInComposite": "no", 
-      "automated": "yes", 
+      "target": 1, 
+      "op": "Scale", 
       "arguments": {
         "new_w": "300", 
         "new_h": "350", 
         "interpolation": "bilinear"
-      }, 
-      "shape change": "(-12, -62)", 
-      "op": "Scale", 
-      "target": 2, 
-      "ctime": "2017-11-28 16:55:45"
+      }
     }, 
     {
       "username": "nbonettini", 
       "maskname": "18e07c8782572ceffcda285bb0f77de0_igol02igol03__mask.png", 
-      "psnr": 6.742868846088159, 
+      "errors": [], 
       "description": "Rotate:Rotate and crop the image to avoid background filling", 
       "location": "(3, 9)", 
       "opsys": "Windows 7 6.1.7601", 
       "editable": "yes", 
-      "softwareVersion": "2.4.13", 
+      "local psnr": -4.403445438068909, 
       "plugin_name": "Rotate", 
+      "ctime": "2017-11-28 16:54:52", 
+      "softwareName": "OpenCV", 
+      "source": 3, 
+      "softwareVersion": "2.4.13", 
+      "psnr": 6.742868846088159, 
+      "recordMaskInComposite": "no", 
+      "automated": "yes", 
+      "shape change": "(-150, -150)", 
       "exifdiff": {
         "Image Size": [
           "change", 
@@ -561,19 +513,11 @@
           "2017:11:28 16:54:50+01:00"
         ]
       }, 
-      "softwareName": "OpenCV", 
-      "source": 4, 
-      "local psnr": -4.403445438068909, 
-      "errors": [], 
-      "recordMaskInComposite": "no", 
-      "automated": "yes", 
+      "target": 2, 
+      "op": "Rotate", 
       "arguments": {
         "angle": "80"
-      }, 
-      "shape change": "(-150, -150)", 
-      "op": "Rotate", 
-      "target": 3, 
-      "ctime": "2017-11-28 16:54:52"
+      }
     }
   ], 
   "multigraph": false
