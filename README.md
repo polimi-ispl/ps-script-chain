@@ -27,14 +27,18 @@ Copy folder jt_plugins in your _maskgen/plugins_. This step is not mandatory if 
 cd $ROOT
 python jt_parser.py test/journal_from_JT.json test/parsed_journal_for_PS.json
 ```
+
 input: json journal from MediFor journaling tool
+
 output: json with ordered operations chain
 
 ##### 2. Image transformation
 
-**2.1** Open _photoshop_chain.jsx_ with Adobe Extendscript Toolkit and set `rootDir` to `$ROOT`
+###### 2.1. 
+Open _photoshop_chain.jsx_ with Adobe Extendscript Toolkit and set `rootDir` to `$ROOT`
 
-**2.2** Execute _photoshop_chain.jsx_ (Photoshop should open up automatically)
+###### 2.2
+Execute _photoshop_chain.jsx_ (Photoshop should open up automatically)
 
 Output images are saved in `$ROOT`/test/img_dst
 
