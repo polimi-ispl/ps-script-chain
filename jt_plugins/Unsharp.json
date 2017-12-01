@@ -1,0 +1,64 @@
+{
+    "name": "Unsharp",
+    "operation": {
+      "name": "Unsharp",
+      "category": "Filter",
+      "description": "Sharpen the image by applying an unsharp mask. (www.cambridgeincolour.com/tutorials/unsharp-mask.htm, https://www.imagemagick.org/script/command-line-options.php#unsharp)",
+      "software": "ImageMagick",
+      "version": "7",
+      "arguments":{
+        "radius":{
+          "type": "string",
+          "defaultvalue": null,
+          "description": "Radius of the gaussian operator used to blur the image in first instance. If 0 a suitable radius is automatically selected."
+        },
+        "sigma":{
+          "type": "string",
+          "defaultvalue": "8",
+          "description": "Standard deviation of the gaussian operator used to blur the image in first instance. Should be set to 1."
+        },
+        "amount":{
+          "type": "string",
+          "defaultvalue": null,
+          "description": "Fraction of the difference between original and blur image that is added back into the original."
+        },
+        "threshold": {
+              "type": "string",
+              "defaultvalue": null,
+              "description": "Fraction of QuantumRange needed to apply the difference amount"
+        }
+      },
+      "transitions": ["image.image"]
+    },
+    "command": {
+      "default":[
+        "convert",
+        "-unsharp",
+        "{radius}x{sigma}+{amount}+{threshold}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "win": [
+        "magick",
+        "convert",
+        "-unsharp",
+        "{radius}x{sigma}+{amount}+{threshold}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "darwin":[
+        "convert",
+        "-unsharp",
+        "{radius}x{sigma}+{amount}+{threshold}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "linux":[
+        "convert",
+        "-unsharp",
+        "{radius}x{sigma}+{amount}+{threshold}",
+        "{inputimage}",
+        "{outputimage}"
+      ]
+    }
+}

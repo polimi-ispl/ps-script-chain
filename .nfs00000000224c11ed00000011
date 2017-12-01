@@ -1,8 +1,7 @@
 # Photoshop Script Chain
 
-Photoshop scripting tool to chain transformations together.
-The tool is under development, so it only works with a reduced set of tranformations, e.g. _crop, rotation, flip, scale, copy paste from same image, blur, motion blur, unsharp_. These transformations have been reimplemented as custom MediFor Journaling Tool plugins in order to have a common guideline for the parameters across various software.
- 
+Photoshop scripting tool to chain transformations together. The tool is under development, so it works with a selected set of tranformations, e.g. _crop, rotation, flip, scale, copy paste from same image, blur, motion blur, unsharp_.
+
 ### Requisites:
 * Python 2 or 3
 * Photoshop (tested with Photoshop CC Release 2017 1.1)
@@ -11,16 +10,10 @@ The tool is under development, so it only works with a reduced set of tranformat
 ### Usage:
 We refer to the root directory of the repository as `$ROOT`. Folder 'test' contains some test files you can use for check the tool out. 
 In particular:
-
 - _$ROOT/test/journal_from_JT.json_ journal file generated with MediFor journaling tool
 - _$ROOT/test/img_src/*_ test images to process
 
 Intended use case is the following:
-
-##### 0. Add plugins
-
-Copy folder jt_plugins in your _maskgen/plugins_. This step is not mandatory if you only want to test the tool with the provided input files. 
-
 ##### 1. Journal translation
 
 ```
@@ -33,7 +26,6 @@ output: json with ordered operations chain
 ##### 2. Image transformation
 **2.1** Open _photoshop_chain.jsx_ with Adobe Extendscript Toolkit and set `rootDir` to `$ROOT`
 **2.2** Execute _photoshop_chain.jsx_ (Photoshop should open up automatically)
-
 Output images are saved in `$ROOT`/test/img_dst
 
 ## Disclaimer notice 

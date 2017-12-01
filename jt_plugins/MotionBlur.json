@@ -1,0 +1,59 @@
+{
+    "name": "MotionBlur",
+    "operation": {
+      "name": "MotionBlur",
+      "category": "Filter",
+      "description": "Automatically apply a motion blur with the given radius, sigma and angle value. (https://www.imagemagick.org/script/command-line-options.php#blur)",
+      "software": "ImageMagick",
+      "version": "7",
+      "arguments":{
+        "radius":{
+          "type": "string",
+          "defaultvalue": null,
+          "description": "How big an area the operator should look at when spreading pixels."
+        },
+        "sigma":{
+          "type": "string",
+          "defaultvalue": "8",
+          "description": "How much each neighbour contributes to the final result."
+        },
+        "angle": {
+              "type": "string",
+              "defaultvalue": null,
+              "description": "Angle of motion"
+        }
+      },
+      "transitions": ["image.image"]
+    },
+    "command": {
+      "default":[
+        "convert",
+        "-motion-blur",
+        "{radius}x{sigma}+-{angle}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "win": [
+        "magick",
+        "convert",
+        "-motion-blur",
+        "{radius}x{sigma}+-{angle}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "darwin":[
+        "convert",
+        "-motion-blur",
+        "{radius}x{sigma}+-{angle}",
+        "{inputimage}",
+        "{outputimage}"
+      ],
+      "linux":[
+        "convert",
+        "-motion-blur",
+        "{radius}x{sigma}+-{angle}",
+        "{inputimage}",
+        "{outputimage}"
+      ]
+    }
+}
