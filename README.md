@@ -31,6 +31,7 @@ input: json journal from MediFor journaling tool
 output: json with ordered operations chain
 
 ##### 2. Image transformation
+
 **2.1** Open _photoshop_chain.jsx_ with Adobe Extendscript Toolkit and set `rootDir` to `$ROOT`
 **2.2** Execute _photoshop_chain.jsx_ (Photoshop should open up automatically)
 
